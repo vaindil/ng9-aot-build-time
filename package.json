@@ -1,6 +1,6 @@
 {
   "name": "@richardlt/ng2-semantic-ui",
-  "version": "0.10.0-alpha.6-fork-1",
+  "version": "0.10.0-alpha.6-fork-2",
   "description": "Angular Semantic UI Components",
   "repository": {
     "type": "git",
@@ -60,9 +60,9 @@
     "@types/jasmine": "~3.5.9",
     "@types/jasminewd2": "~2.0.8",
     "@types/node": "~13.9.1",
-    "@types/prismjs": "~1.16.0",
+    "@types/prismjs": "~1.4.18",
     "bowser": "^1.7.2",
-    "core-js": "^3.6.4",
+    "core-js": "^2.5.4",
     "date-fns": "2.11.0",
     "element-closest": "^3.0.2",
     "extend": "^3.0.2",
