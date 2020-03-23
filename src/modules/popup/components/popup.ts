@@ -126,7 +126,7 @@ export class SuiPopup implements IPopup {
     }
 
     // `ViewContainerRef` for the element the template gets injected as a sibling of.
-    @ViewChild("templateSibling", { read: ViewContainerRef })
+    @ViewChild("templateSibling", { read: ViewContainerRef, static: true })
     public templateSibling:ViewContainerRef;
 
     @HostBinding("attr.tabindex")
