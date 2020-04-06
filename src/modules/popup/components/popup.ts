@@ -81,7 +81,7 @@ export class SuiPopup implements IPopup {
     }
 
     // `ElementRef` for the positioning subject.
-    @ViewChild("container", { read: ViewContainerRef })
+    @ViewChild("container", { read: ViewContainerRef, static: true })
     private _container:ViewContainerRef;
 
     public set anchor(anchor:ElementRef) {
