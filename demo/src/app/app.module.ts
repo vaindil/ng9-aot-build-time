@@ -10,6 +10,13 @@ import { DemoModalsModule } from "./modals/demo-modals.module";
 import { DemoPagesModule } from "./pages/demo-pages.module";
 
 import { AppComponent } from "./app.component";
+import { DemoPages2Module } from "./pages2/demo-pages.module";
+import { DemoPages3Module } from "./pages3/demo-pages.module";
+import { DemoPages4Module } from "./pages4/demo-pages.module";
+import { DemoPages5Module } from "./pages5/demo-pages.module";
+import { DemoPages6Module } from "./pages6/demo-pages.module";
+import { DemoPages7Module } from "./pages7/demo-pages.module";
+import { DemoPages8Module } from "./pages8/demo-pages.module";
 
 @NgModule({
     imports: [
@@ -22,7 +29,14 @@ import { AppComponent } from "./app.component";
         DemoRoutingModule,
         DemoComponentsModule,
         DemoModalsModule,
-        DemoPagesModule
+        DemoPagesModule,
+        DemoPages2Module,
+        DemoPages3Module,
+        DemoPages4Module,
+        DemoPages5Module,
+        DemoPages6Module,
+        DemoPages7Module,
+        DemoPages8Module
     ],
     declarations: [AppComponent],
     providers: [],
