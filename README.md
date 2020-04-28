@@ -1,5 +1,7 @@
 # Angular 9 AOT Build Times
 
+Discussion for this repository is at [angular/angular-cli#17418](https://github.com/angular/angular-cli/issues/17418).
+
 This is a fork of [richardlt/ng2-semantic-ui](https://github.com/richardlt/ng2-semantic-ui) to demonstrate an issue with the Angular CLI. Angular 9's AOT build times with Ivy enabled are supposed to be comparable to JIT build times, to the point that AOT is now the default even for dev builds, but this is not the case for many repositories.
 
 Setup:
